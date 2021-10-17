@@ -1,0 +1,10 @@
+@startuml
+Class Solution45{
+-outputFile: String
+-outputFilePrompt();
+
++main();
++readInput(String): List<String>;
++writeOutput(String outputFile, List<String>);
+}
+@enduml
