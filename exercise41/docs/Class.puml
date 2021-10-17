@@ -1,0 +1,7 @@
+@startuml
+class Solution41{
++main();
++readInput(String): List<String>;
++writeOutput(String, List<String>);
+}
+@enduml

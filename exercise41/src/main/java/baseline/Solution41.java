@@ -17,6 +17,7 @@ public class Solution41 {
 
         // Assign the return value of input method to a list string variable.
         List<String> lineList =  app.readInput("exercise41_input.txt");
+
         // Pass the List String variable along with output
         // String file to a writeOutput method.
         app.writeOutput("exercise41_output.txt", lineList);
