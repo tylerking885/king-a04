@@ -16,6 +16,7 @@ public class Solution42 {
 
         // Assign the return value of readInput method to a List String variable.
         List<String> lineList =  app.readInput("exercise42_input.txt");
+
         // Call the writeOutput method by passing in the previous List String
         // variable and pass in the outputFile name in the form of a String.
         app.writeOutput("exercise42_output.txt", lineList);
@@ -59,6 +60,7 @@ public class Solution42 {
     }
 
     public void writeOutput(String outputFile, List<String> lineList) throws IOException {
+
         // Use a counter for each line break.
         int i = 0;
 
