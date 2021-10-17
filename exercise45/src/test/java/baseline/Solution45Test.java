@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.util.List;
 
-class Solution41Test {
+class Solution45Test {
 
     @Test
     public void readCorrectInputTest() throws IOException {
