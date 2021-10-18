@@ -1,0 +1,10 @@
+@startuml
+class Solution46{
+-fileContent: String;
+
++main();
+readFileIntoString(String): String;
+editString(fileContent): String;
+countWordsFrequency(fileContent);
+}
+@enduml
