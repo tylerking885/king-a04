@@ -1,0 +1,12 @@
+@startuml
+class Solution44{
+-inFile: String;
+-jsonObject: JsonObject;
+-products: JsonArray;
+
++main();
++readFile(inFile): JsonObject;
++getArray(jsonObject): JsonArray;
++productSearch(products);
+}
+@enduml
