@@ -1,0 +1,16 @@
+@startuml
+class Solution43{
+-nameSite: String;
+-nameAuthor: String;
+-myPath: String;
+-ansQuestion1: String;
+-ansQuestion2: String;
+
+-promptUser(String prompt);
+
++main();
++createJavaScriptFolder(myPath);
++createCssFolder(myPath);
++createWebsiteFolder(myPath);
+}
+@enduml

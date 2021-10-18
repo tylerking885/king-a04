@@ -10,11 +10,12 @@ class Solution43Test {
 
     // My thought process was to test if the folder was created
     // or if the folder already existed.
-    @Test
+
 
     // Test creates a JS folder within the main directory.
     // Note running multiple tests results in folders
     // within folders up to a max of 2.
+    @Test
     public void createJavaScriptFolderTest() {
         Solution43 test = new Solution43();
         String pathJS = System.getProperty("user.dir");
@@ -41,11 +42,12 @@ class Solution43Test {
 
     // My thought process was to test if the folder was created
     // or if the folder already existed.
-    @Test
+
 
     // Test creates a CSS folder within the main directory.
     // Note running multiple tests results in folders
     // within folders up to a max of 2.
+    @Test
     public void createCssFolderTest() {
         Solution43 test2 = new Solution43();
 
