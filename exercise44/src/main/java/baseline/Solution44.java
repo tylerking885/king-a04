@@ -8,7 +8,6 @@ package baseline;
 import com.google.gson.*;
 import java.io.*;
 
-
 public class Solution44 {
 
     // Declare string variable.
